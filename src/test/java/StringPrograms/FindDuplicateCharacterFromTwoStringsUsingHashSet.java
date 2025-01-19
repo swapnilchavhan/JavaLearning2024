@@ -13,8 +13,8 @@ public class FindDuplicateCharacterFromTwoStringsUsingHashSet {
 		System.out.println("String1 is - " + str1);
 		System.out.println("String2 is - " + str2);
 
-		HashSet<Character> uniqueChar = new HashSet<>();
-		HashSet<Character> duplicateChar = new HashSet<>();
+		HashSet<Character> uniqueChar = new HashSet<Character>();
+		HashSet<Character> duplicateChar = new HashSet<Character>();
 
 		for (char c : str1.toCharArray()) {
 			uniqueChar.add(c);

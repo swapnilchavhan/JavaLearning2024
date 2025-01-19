@@ -13,7 +13,7 @@ public class FindMaximumOccuringCharInSting {
 		int count = 0;
 
 		// create HashMap to store frequency of every character
-		HashMap<Character, Integer> hashMap = new HashMap<>();
+		HashMap<Character, Integer> hashMap = new HashMap<Character, Integer>();
 
 		for (int i = 0; i < str.length(); i++) {
 
