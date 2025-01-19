@@ -7,7 +7,7 @@ public class GitTest {
 	@Test
 	public void testExample() {
 		// TODO Auto-generated method stub
-		System.out.println("Git Test 1");
+		System.out.println("Test Jenkins -push code to git-1");
 	}
 
 }
